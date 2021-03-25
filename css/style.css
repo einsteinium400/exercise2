@@ -1,0 +1,213 @@
+@font-face{
+    font-family:'Lato';
+    src: url(../fonts/Lato-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Lato;
+}
+
+header{
+    padding-left: 50px;
+    padding-top: 59px;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav{
+    margin-top: 48px;
+    color:white;
+    font-size: 15px;
+}
+
+header, footer, main, nav, section, #signup, .pictext, #footericons{
+    display: block;
+    width: 100%;
+}
+
+#caption, #logo, .myskills, #footericons, #copyright{
+    display:inline-block;
+}
+
+.pinkback{
+    background-color: #ED4C5C; 
+}
+
+#caption {
+    color:white;
+    font-size: 18px;
+}
+
+#logo{
+    background-image: url("../images/Vector.png");
+    background-repeat: no-repeat;
+    width: 24.65px;
+    height: 17.4px;
+}
+
+#myphoto{
+    margin-left: 89px;
+    margin-top:45px;
+    position: relative;
+    border-radius: 15px;
+}
+.nav:hover{
+    color: darkgrey;
+}
+
+.nav{
+    margin-right:16px;
+    color:white;
+    font-size: 14px;
+}
+
+#signupsec{
+    padding-bottom:71px;
+}
+
+ #signup
+{
+    background: #fff;
+    color: #ED4C5C;
+    text-align: center;
+    width: 160px;
+    height:50px;
+    border-radius: 6px;
+    margin-top: 62px;
+    line-height: 50px;
+}
+
+/* main */
+
+#dana{
+    margin-top: 56px;
+    font-size: 36px;
+}
+
+#aboutme{
+    margin-left: 50px;
+}
+#aboutmyself{
+    margin-top: 30px;
+}
+
+#learnmore{
+    color:#ED4C5C;
+    margin-top: 20px;
+}
+
+#learnmoretext{
+    color:#ED4C5C;
+}
+
+/* three photos area */
+#threepics{
+    margin-top: 40.72px;
+    margin-left: 50px;
+    color:#ED4C5C;
+}
+
+.pic{
+    border-radius: 8px;
+    margin-left: 30px;
+}
+
+.pictext{
+    background: #fff;
+    color: #ED4C5C;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    width: 340px;
+    border-radius: 8px; 
+    margin-top: -30px;
+    position: relative;
+    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);    
+}
+
+.picdescription{
+    margin-left: 30px;
+}
+
+#secondpictext{
+    margin-left: 383px;
+}
+
+#thirdpictext{
+    margin-left: 767px;
+}
+/* SKILLS */
+#skills{
+    font-size: 18px;
+    margin-top: 120px;
+    padding-top: 57px;
+    background-color: #F5F4F4;
+}
+
+#skilltitle{
+    font-size: 36px;
+    margin-left:50px;
+}
+
+h6{
+    font-size:18px;
+}
+
+.myskills{
+    margin-top:50px;
+    margin-left:50px;
+    background: #fff;
+    color: #000;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    width: 255px;
+    height: 226px;
+    margin-bottom: 271px;
+
+    background-size: 47px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#firstskill{
+    background-image:  url(../images/computerlogo.png);
+}
+
+#secondskill{
+    background-image:  url(../images/paintlogo.png);
+}
+
+#thirdskill{
+    background-image:  url(../images/cakelogo.png);
+}
+
+#fourthskill{
+    background-image:  url(../images/mathlogo.png);
+}
+
+.skilltitle{
+    margin-top: 139px;
+}
+
+/* FOOTER */
+
+#copyright{
+    font-size: 24px;
+    color:#fff;
+    margin-left:28px;
+} 
+
+.footericon{
+    margin-left: 50px;
+}
+
+.footersec{
+    padding-top: 29px;
+    padding-bottom: 29px;
+    padding-left: 50px;
+}
